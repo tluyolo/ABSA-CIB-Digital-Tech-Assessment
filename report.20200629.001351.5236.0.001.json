@@ -1,0 +1,321 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200629.001351.5236.0.001.json",
+    "dumpEventTime": "2020-06-29T00:13:52Z",
+    "dumpEventTimeStamp": "1593382432235",
+    "processId": 5236,
+    "cwd": "C:\\Users\\Lerato.Mokheseng\\Desktop\\RMSS\\ABSA CIB Digital Tech – Assessment",
+    "commandLine": [
+      "C:\\Program Files\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VisualStudio\\NodeJs\\node.exe",
+      "--expose-gc",
+      "--max_old_space_size=3072",
+      "C:\\Program Files\\Microsoft SDKs\\TypeScript\\3.8\\tsserver.js",
+      "--cancellationPipeName",
+      "\\\\.\\pipe\\tsserver-cancellation-ProjectHost-1704",
+      "--useSingleInferredProject",
+      "--locale",
+      "en-US",
+      "--suppressDiagnosticEvents",
+      "--enableTelemetry",
+      "--allowLocalPluginLoads",
+      "--npmLocation",
+      "C:\\Program Files\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VisualStudio\\NodeJs\\npm.cmd",
+      "--globalPlugins",
+      "@vsintellicode/typescript-intellicode-plugin",
+      "--pluginProbeLocations",
+      "C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2019\\COMMUNITY\\COMMON7\\IDE\\EXTENSIONS\\MICROSOFT\\INTELLICODE\\TypeScriptAssets",
+      "--typingSafeListLocation",
+      "c:\\program files\\microsoft visual studio\\2019\\community\\common7\\ide\\commonextensions\\microsoft\\typescript\\typingSafeList.json",
+      "--eventPort",
+      "49180"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "wordSize": 32,
+    "arch": "ia32",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.1/win-x86/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.1.7601",
+    "osVersion": "Windows 7 Home Basic Service Pack 1",
+    "osMachine": "i686",
+    "cpus": [
+      {
+        "model": "Celeron(R) Dual-Core CPU       T3500  @ 2.10GHz",
+        "speed": 2094,
+        "user": 4619174,
+        "nice": 0,
+        "sys": 3420306,
+        "idle": 25740820,
+        "irq": 151788
+      },
+      {
+        "model": "Celeron(R) Dual-Core CPU       T3500  @ 2.10GHz",
+        "speed": 2094,
+        "user": 4510675,
+        "nice": 0,
+        "sys": 3384301,
+        "idle": 25884060,
+        "irq": 148216
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "b4:74:9f:e4:8c:3d",
+        "address": "fe80::508f:4a68:fbd4:c931",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 15
+      },
+      {
+        "name": "Wireless Network Connection",
+        "internal": false,
+        "mac": "b4:74:9f:e4:8c:3d",
+        "address": "172.20.10.3",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LeratoMokheseng"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+  ],
+  "javascriptHeap": {
+    "totalMemory": 54669312,
+    "totalCommittedMemory": 54669312,
+    "usedMemory": 52209404,
+    "availableMemory": 3181959340,
+    "memoryLimit": 3233808384,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 262008,
+        "used": 22100,
+        "available": 239908
+      },
+      "new_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 524016,
+        "used": 523984,
+        "available": 32
+      },
+      "old_space": {
+        "memorySize": 30478336,
+        "committedMemory": 30478336,
+        "capacity": 30441012,
+        "used": 28864220,
+        "available": 1576792
+      },
+      "code_space": {
+        "memorySize": 950272,
+        "committedMemory": 950272,
+        "capacity": 889504,
+        "used": 633152,
+        "available": 256352
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 527928,
+        "used": 304760,
+        "available": 223168
+      },
+      "large_object_space": {
+        "memorySize": 21876736,
+        "committedMemory": 21876736,
+        "capacity": 21859172,
+        "used": 21859172,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2016,
+        "used": 2016,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 524016,
+        "used": 0,
+        "available": 524016
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 78.172,
+    "kernelCpuSeconds": 18.408,
+    "cpuConsumptionPercent": 0.0926063,
+    "maxRss": 84140032,
+    "pageFaults": {
+      "IORequired": 258183,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2786,
+      "writes": 1361
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Lerato.Mokheseng\\AppData\\Roaming",
+    "asl.log": "Destination=file",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LERATOMOKHESENG",
+    "ComSpec": "C:\\windows\\system32\\cmd.exe",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Lerato.Mokheseng",
+    "IIS_BIN": "C:\\Program Files\\IIS Express",
+    "IIS_DRIVE": "C:",
+    "IIS_SITES_HOME": "C:\\Users\\Lerato.Mokheseng\\Documents\\My Web Sites",
+    "IIS_USER_HOME": "C:\\Users\\Lerato.Mokheseng\\Documents\\IISExpress",
+    "LOCALAPPDATA": "C:\\Users\\Lerato.Mokheseng\\AppData\\Local",
+    "LOGONSERVER": "\\\\LERATOMOKHESENG",
+    "MSBuildLoadMicrosoftTargetsReadOnly": "true",
+    "NUMBER_OF_PROCESSORS": "2",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter\\Driver;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\nodejs\\;C:\\Users\\Lerato.Mokheseng\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PkgDefApplicationConfigFile": "C:\\Users\\Lerato.Mokheseng\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_343860f6\\devenv.exe.config",
+    "PROCESSOR_ARCHITECTURE": "x86",
+    "PROCESSOR_IDENTIFIER": "x86 Family 6 Model 23 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "170a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "PSModulePath": "C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "ServiceHubLogSessionKey": "C725FB1A",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\windows",
+    "TEMP": "C:\\Users\\LERATO~1.MOK\\AppData\\Local\\Temp",
+    "ThreadedWaitDialogDpiContext": "-1",
+    "TMP": "C:\\Users\\LERATO~1.MOK\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LeratoMokheseng",
+    "USERNAME": "Lerato.Mokheseng",
+    "USERPROFILE": "C:\\Users\\Lerato.Mokheseng",
+    "VisualStudioDir": "C:\\Users\\Lerato.Mokheseng\\Documents\\Visual Studio 2019",
+    "VisualStudioEdition": "Microsoft Visual Studio Community 2019",
+    "VisualStudioVersion": "16.0",
+    "VS110COMNTOOLS": "C:\\Program Files\\Microsoft Visual Studio 11.0\\Common7\\Tools\\",
+    "VSAPPIDDIR": "C:\\Program Files\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\",
+    "VSAPPIDNAME": "devenv.exe",
+    "VSLANG": "1033",
+    "VSSKUEDITION": "Community",
+    "windir": "C:\\windows"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VisualStudio\\NodeJs\\node.exe",
+    "C:\\windows\\SYSTEM32\\ntdll.dll",
+    "C:\\windows\\system32\\kernel32.dll",
+    "C:\\windows\\system32\\KERNELBASE.dll",
+    "C:\\windows\\system32\\dbghelp.dll",
+    "C:\\windows\\system32\\msvcrt.dll",
+    "C:\\windows\\system32\\WS2_32.dll",
+    "C:\\windows\\system32\\RPCRT4.dll",
+    "C:\\windows\\system32\\NSI.dll",
+    "C:\\windows\\system32\\ADVAPI32.dll",
+    "C:\\windows\\SYSTEM32\\sechost.dll",
+    "C:\\windows\\system32\\USER32.dll",
+    "C:\\windows\\system32\\GDI32.dll",
+    "C:\\windows\\system32\\LPK.dll",
+    "C:\\windows\\system32\\USP10.dll",
+    "C:\\windows\\system32\\IPHLPAPI.DLL",
+    "C:\\windows\\system32\\WINNSI.DLL",
+    "C:\\windows\\system32\\PSAPI.DLL",
+    "C:\\windows\\system32\\USERENV.dll",
+    "C:\\windows\\system32\\profapi.dll",
+    "C:\\windows\\system32\\CRYPT32.dll",
+    "C:\\windows\\system32\\MSASN1.dll",
+    "C:\\windows\\system32\\bcrypt.dll",
+    "C:\\windows\\system32\\WINMM.dll",
+    "C:\\windows\\system32\\IMM32.DLL",
+    "C:\\windows\\system32\\MSCTF.dll",
+    "C:\\windows\\system32\\powrprof.dll",
+    "C:\\windows\\system32\\SETUPAPI.dll",
+    "C:\\windows\\system32\\CFGMGR32.dll",
+    "C:\\windows\\system32\\OLEAUT32.dll",
+    "C:\\windows\\system32\\ole32.dll",
+    "C:\\windows\\system32\\DEVOBJ.dll",
+    "C:\\windows\\system32\\uxtheme.dll",
+    "C:\\windows\\system32\\mswsock.dll",
+    "C:\\windows\\System32\\wshtcpip.dll",
+    "C:\\windows\\System32\\wship6.dll",
+    "C:\\windows\\system32\\bcryptprimitives.dll",
+    "\\\\?\\C:\\Program Files\\Microsoft SDKs\\TypeScript\\3.8\\node_modules\\@microsoft\\typescript-etw\\bin\\ia32\\typescript-etw.node",
+    "C:\\windows\\system32\\apphelp.dll",
+    "C:\\windows\\system32\\dhcpcsvc.DLL",
+    "C:\\windows\\system32\\dhcpcsvc6.DLL",
+    "C:\\windows\\system32\\cryptbase.dll",
+    "C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live\\WLIDNSP.DLL",
+    "C:\\windows\\system32\\SHLWAPI.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+    "C:\\windows\\system32\\DNSAPI.dll",
+    "C:\\windows\\system32\\rasadhlp.dll",
+    "C:\\windows\\System32\\fwpuclnt.dll",
+    "C:\\windows\\system32\\NLAapi.dll",
+    "C:\\windows\\system32\\napinsp.dll",
+    "C:\\windows\\system32\\pnrpnsp.dll",
+    "C:\\windows\\system32\\wshbth.dll",
+    "C:\\windows\\System32\\winrnr.dll"
+  ]
+}

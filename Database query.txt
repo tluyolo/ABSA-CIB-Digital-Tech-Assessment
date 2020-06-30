@@ -1,0 +1,50 @@
+USE [ABSA]
+GO
+/****** Object:  StoredProcedure [dbo].[ProcPhonebook]    Script Date: 6/29/2020 3:44:00 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		LUYOLO THEO NGATI
+-- Create date: 24 JUNE 2020
+-- Description:	ABSA test
+-- =============================================
+ALTER PROCEDURE [dbo].[ProcPhonebook] 
+(
+@Name varchar(50) ,
+@PhoneNumber bigint
+)	
+AS
+BEGIN
+	insert into PhoneBook(Name,PhoneNumber) VALUES (@Name,@PhoneNumber)
+END
+
+
+
+
+
+TABLE"""
+
+USE [ABSA]
+GO
+
+/****** Object:  Table [dbo].[PhoneBook]    Script Date: 6/29/2020 3:45:43 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[PhoneBook](
+	[Name] [varchar](50) NOT NULL,
+	[PhoneNumber] [bigint] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
